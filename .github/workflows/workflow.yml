@@ -5,7 +5,7 @@ env:
   DB_HOST: localhost
   DEVELOPER_EMAIL_ADDRESS: "basile.quinchon@gmail.com"
 name: Rails tests
-on: [push, pull_request]
+on: [push]
 jobs:
   rubocop-test:
     name: Rubocop
